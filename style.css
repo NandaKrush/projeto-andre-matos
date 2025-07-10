@@ -48,7 +48,7 @@ article {
     padding-left: 15px;
     line-height: 2em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 3.5vw;
+    font-size: 2vw;
 }
 
 article#musica {
@@ -82,7 +82,6 @@ article#img02 {
     background-image: url(imagens/pexels-nam-day-2153787144-32903882.jpg);
     background-position: left top;
     background-size: cover;
-    
 }
 
 footer {
