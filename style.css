@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+:root {
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    background-image: url(imagens/pexels-krisof-1252890.jpg);
+    background-size: 100vw,20vh;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+header > h1 {
+    padding: 40px;
+    padding-bottom: 30px;
+    font-size: 2em;
+}
+
+header > p {
+    padding-bottom: 20px;
+    font-size: smaller;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article {
+    padding: 30px 0px 30px 15px;
+    line-height: 3em;
+}
+
+article#musica {
+    background-color: black;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+article.normal {
+    background-color: white;
+    box-shadow: inset 1px 1px 5px black;
+}
+
+article.imagem {
+    background-color: rgba(87, 87, 87, 0.26);
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+article#img01 {
+    background-image: url(imagens/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center top;
+}
+
+article#img02 {
+    background-image: url(imagens/pexels-nam-day-2153787144-32903882.jpg);
+    background-position: left top;
+    background-size: cover;
+    
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;  
+}
