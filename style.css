@@ -25,7 +25,7 @@ header {
 header > h1 {
     padding: 40px;
     padding-bottom: 30px;
-    font-size: 2em;
+    font-size: 7vw;
     font-family: "MedievalSharp", cursive;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.418);
 }
@@ -43,8 +43,12 @@ html, body {
 }
 
 article {
-    padding: 30px 0px 30px 15px;
-    line-height: 3em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 15px;
+    line-height: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3.5vw;
 }
 
 article#musica {
