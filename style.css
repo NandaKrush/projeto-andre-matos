@@ -79,9 +79,9 @@ article#img01 {
 }
 
 article#img02 {
-    background-image: url(imagens/pexels-nam-day-2153787144-32903882.jpg);
-    background-position: left top;
-    background-size: cover;
+    background-image: url(imagens/floresta.jpg);
+    background-position: center top;
+    
 }
 
 footer {
