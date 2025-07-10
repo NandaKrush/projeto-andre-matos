@@ -1,7 +1,10 @@
 @charset "UTF-8";
 
-:root {
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Sriracha&display=swap');
 
+:root {
+    --fonte1:  
+    --fonte2:
 }
 
 * {
@@ -23,11 +26,14 @@ header > h1 {
     padding: 40px;
     padding-bottom: 30px;
     font-size: 2em;
+    font-family: "MedievalSharp", cursive;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.418);
 }
 
 header > p {
     padding-bottom: 20px;
     font-size: smaller;
+    font-weight: bolder;
 }
 
 html, body {
